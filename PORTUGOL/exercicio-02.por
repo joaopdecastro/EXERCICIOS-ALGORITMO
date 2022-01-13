@@ -10,7 +10,7 @@ programa
 		
 		escreva("Qual o seu nome?" + "\n")
 		leia (nome) 
-		escreva ("Olá, " + nome + ". É um prazer te conhecer!") 
+		escreva ("Olá, " + nome + ". É um enorme prazer te conhecer!") 
 	
 	}
 }
