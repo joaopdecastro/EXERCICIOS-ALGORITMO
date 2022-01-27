@@ -22,21 +22,26 @@ programa
 
 		escreva("==========PARTIDAS=========","\n")
 
-		
-		escreva(times[0], " [  ] x [  ] ", times[1],"\n")
-		escreva(times[0], " [  ] x [  ] ", times[2],"\n")
-		escreva(times[1], " [  ] x [  ] ", times[0],"\n")
-		escreva(times[1], " [  ] x [  ] ", times[2],"\n")
-		escreva(times[2], " [  ] x [  ] ", times[0],"\n")
-		escreva(times[2], " [  ] x [  ] ", times[1],"\n")
+		para(inteiro d = 0; d < 3; d++)
+		{
+			para(inteiro i = 0; i < 3; i++)
+			{
+				se(d != i)
+				{
+					escreva(times[d], " [  ] x [  ] ", times[i],"\n")
+				}
+			}
+		}
+
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 460; 
+ * @POSICAO-CURSOR = 576; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
